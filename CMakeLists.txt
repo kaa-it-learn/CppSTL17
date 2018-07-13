@@ -17,4 +17,5 @@ add_executable(CppSTL17 main.cpp
                         10-stack-calculator.cpp
                         11-word-frequency.cpp
                         12-sentence-stats.cpp
-                        13-private-tasks.cpp)
+                        13-private-tasks.cpp
+                        14-numeric-iterator.cpp)
