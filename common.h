@@ -12,6 +12,12 @@ void vector_quick_remove();
 void vector_insert_sorted();
 void try_emplace_map();
 void map_insert_guess();
+void map_change_keys();
+void unordered_map_custom_type();
+void stack_calculator();
+void word_frequency();
+void sentence_stats();
+void private_tasks();
 
 class process_monitor {
 public:

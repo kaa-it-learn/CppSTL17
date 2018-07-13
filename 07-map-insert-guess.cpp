@@ -13,5 +13,16 @@ void map_insert_guess() {
 
     auto insert_it (end(m));
 
+    for (const auto& s : { "z", "y", "x", "w" }) {
+        insert_it = m.insert(insert_it, { s, 1 });
+    }
 
+    // wrong guess
+    m.insert(end(m), { "a", 1 });
+
+    for (const auto&[key, value] : m) {
+        cout << "\"" << key << "\": " << value << ", ";
+    }
+
+    cout << '\n';
 }

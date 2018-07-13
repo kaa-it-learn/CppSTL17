@@ -6,6 +6,7 @@
 #include <cassert>
 #include <iostream>
 #include <algorithm>
+#include <string>
 
 void insert_sorted(std::vector<std::string> &v, const std::string &word) {
     const auto insert_pos (std::lower_bound(std::begin(v), std::end(v), word));
