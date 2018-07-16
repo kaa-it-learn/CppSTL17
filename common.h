@@ -18,6 +18,12 @@ void stack_calculator();
 void word_frequency();
 void sentence_stats();
 void private_tasks();
+void numeric_iterator();
+void iterator_adapters();
+void fib_iterators();
+void reverse_iterator_adapters();
+int sentinel_iterator(int argc, char* argv[]);
+void debug_iterator();
 
 class process_monitor {
 public:

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 class num_iterator {
     int i;
@@ -16,6 +17,10 @@ public:
     bool operator!=(const num_iterator& other) const {
         return i != other.i;
     }
+
+    bool operator==(const num_iterator& other) const {
+        return !(*this != other);
+    }
 };
 
 class num_range {
@@ -29,9 +34,22 @@ public:
     num_iterator end() const { return num_iterator{ b }; }
 };
 
+namespace std {
+    template <>
+    struct iterator_traits<num_iterator> {
+        using iterator_category = std::forward_iterator_tag;
+        using value_type = int;
+    };
+}
+
 void numeric_iterator() {
     for (int i : num_range{ 100, 110 }) {
         std::cout << i << ", ";
     }
     std::cout << '\n';
+
+    num_range r{ 100, 110 };
+
+    auto[min_it, max_it](std::minmax_element(std::begin(r), std::end(r)));
+    std::cout << *min_it << " - " << *max_it << '\n';
 }

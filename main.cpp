@@ -2,7 +2,7 @@
 
 #include "common.h"
 
-int main() {
+int main(int argc, char** argv) {
     std::cout << "Hello, World!" << std::endl;
 
     decomposition();
@@ -18,6 +18,12 @@ int main() {
     word_frequency();
     sentence_stats();
     private_tasks();
+    numeric_iterator();
+    iterator_adapters();
+    fib_iterators();
+    reverse_iterator_adapters();
+    sentinel_iterator(argc, argv);
+    debug_iterator();
 
     std::getchar();
     std::getchar();

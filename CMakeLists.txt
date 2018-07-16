@@ -18,4 +18,9 @@ add_executable(CppSTL17 main.cpp
                         11-word-frequency.cpp
                         12-sentence-stats.cpp
                         13-private-tasks.cpp
-                        14-numeric-iterator.cpp)
+                        14-numeric-iterator.cpp
+                        15-iterator-adapters.cpp
+                        16-fib-iterators.cpp
+                        17-reverse-iterator-adapters.cpp
+                        18-sentinel-iterator.cpp
+                        19-debug-iterator.cpp)
