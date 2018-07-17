@@ -44,4 +44,6 @@ int sentinel_iterator(int argc, char* argv[]) {
         std::cout << c;
     }
     std::cout << '\n';
+
+    return 0;
 }
