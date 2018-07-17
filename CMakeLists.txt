@@ -23,4 +23,7 @@ add_executable(CppSTL17 main.cpp
                         16-fib-iterators.cpp
                         17-reverse-iterator-adapters.cpp
                         18-sentinel-iterator.cpp
-                        19-debug-iterator.cpp)
+                        19-debug-iterator.cpp
+                        20-iterator-zip.cpp
+                        21-lambdas.cpp
+                        22-function-polimorphism.cpp)

@@ -24,6 +24,9 @@ int main(int argc, char** argv) {
     reverse_iterator_adapters();
     sentinel_iterator(argc, argv);
     debug_iterator();
+    iterator_zip();
+    lambdas();
+    function_polimorphism();
 
     std::getchar();
     std::getchar();

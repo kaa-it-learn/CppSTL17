@@ -24,6 +24,9 @@ void fib_iterators();
 void reverse_iterator_adapters();
 int sentinel_iterator(int argc, char* argv[]);
 void debug_iterator();
+void iterator_zip();
+void lambdas();
+void function_polimorphism();
 
 class process_monitor {
 public:
