@@ -27,4 +27,5 @@ add_executable(CppSTL17 main.cpp
                         19-debug-iterator.cpp
                         20-iterator-zip.cpp
                         21-lambdas.cpp
-                        22-function-polimorphism.cpp)
+                        22-function-polimorphism.cpp
+                        23-function-concat.cpp)

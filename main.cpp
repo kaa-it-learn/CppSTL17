@@ -27,6 +27,7 @@ int main(int argc, char** argv) {
     iterator_zip();
     lambdas();
     function_polimorphism();
+    function_concat();
 
     std::getchar();
     std::getchar();

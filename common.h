@@ -27,6 +27,7 @@ void debug_iterator();
 void iterator_zip();
 void lambdas();
 void function_polimorphism();
+void function_concat();
 
 class process_monitor {
 public:
