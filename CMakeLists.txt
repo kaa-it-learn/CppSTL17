@@ -32,4 +32,5 @@ add_executable(CppSTL17 main.cpp
                         24-function-complex-predicates.cpp
                         25-functions-with-same-parameters.cpp
                         26-custom-transform-if.cpp
-                        27-cartesian-product.cpp)
+                        27-cartesian-product.cpp
+                        28-copy-containers.cpp)

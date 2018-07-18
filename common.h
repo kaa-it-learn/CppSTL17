@@ -32,6 +32,7 @@ void function_complex_predicates();
 void functions_with_same_parameters();
 void custom_transform_if();
 void cartesian_product();
+void copy_containers();
 
 class process_monitor {
 public:

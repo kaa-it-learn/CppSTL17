@@ -32,6 +32,7 @@ int main(int argc, char** argv) {
     functions_with_same_parameters();
     custom_transform_if();
     cartesian_product();
+    copy_containers();
 
     std::getchar();
     std::getchar();
