@@ -28,6 +28,10 @@ int main(int argc, char** argv) {
     lambdas();
     function_polimorphism();
     function_concat();
+    function_complex_predicates();
+    functions_with_same_parameters();
+    custom_transform_if();
+    cartesian_product();
 
     std::getchar();
     std::getchar();

@@ -28,6 +28,10 @@ void iterator_zip();
 void lambdas();
 void function_polimorphism();
 void function_concat();
+void function_complex_predicates();
+void functions_with_same_parameters();
+void custom_transform_if();
+void cartesian_product();
 
 class process_monitor {
 public:

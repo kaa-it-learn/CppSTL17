@@ -28,4 +28,8 @@ add_executable(CppSTL17 main.cpp
                         20-iterator-zip.cpp
                         21-lambdas.cpp
                         22-function-polimorphism.cpp
-                        23-function-concat.cpp)
+                        23-function-concat.cpp
+                        24-function-complex-predicates.cpp
+                        25-functions-with-same-parameters.cpp
+                        26-custom-transform-if.cpp
+                        27-cartesian-product.cpp)
