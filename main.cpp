@@ -43,6 +43,14 @@ int main(int argc, char** argv) {
     input_permutations();
     dictionary_merge();
     prefix_tree();
+    word_suggestion();
+    gen_fourier_transform();
+    vector_sum_error();
+    mandelbrot();
+    custom_split();
+    custom_gather();
+    remove_consecutive_whitespace();
+    string_compress();
 
     std::getchar();
     std::getchar();

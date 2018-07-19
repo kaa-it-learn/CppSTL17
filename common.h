@@ -43,6 +43,14 @@ void sampling_vectors();
 void input_permutations();
 void dictionary_merge();
 void prefix_tree();
+void word_suggestion();
+void gen_fourier_transform();
+void vector_sum_error();
+void mandelbrot();
+void custom_split();
+void custom_gather();
+void remove_consecutive_whitespace();
+void string_compress();
 
 class process_monitor {
 public:

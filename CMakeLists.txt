@@ -43,4 +43,12 @@ add_executable(CppSTL17 main.cpp
                         35-sampling-vectors.cpp
                         36-input-permutations.cpp
                         37-dictionary-merge.cpp
-                        38-prefix-tree.cpp)
+                        38-prefix-tree.cpp
+                        39-word-suggestion.cpp
+                        40-fourier-transform.cpp
+                        41-vector-sum-error.cpp
+                        42-mandelbrot.cpp
+                        43-custom-split.cpp
+                        44-gather.cpp
+                        45-remove-consecutive-whitespace.cpp
+                        46-string-compress.cpp)
