@@ -42,6 +42,7 @@ void pattern_search_string();
 void sampling_vectors();
 void input_permutations();
 void dictionary_merge();
+void prefix_tree();
 
 class process_monitor {
 public:

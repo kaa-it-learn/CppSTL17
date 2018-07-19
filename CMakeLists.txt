@@ -42,4 +42,5 @@ add_executable(CppSTL17 main.cpp
                         34-pattern-search-string.cpp
                         35-sampling-vectors.cpp
                         36-input-permutations.cpp
-                        37-dictionary-merge.cpp)
+                        37-dictionary-merge.cpp
+                        38-prefix-tree.cpp)

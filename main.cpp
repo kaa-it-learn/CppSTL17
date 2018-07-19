@@ -42,6 +42,7 @@ int main(int argc, char** argv) {
     sampling_vectors();
     input_permutations();
     dictionary_merge();
+    prefix_tree();
 
     std::getchar();
     std::getchar();
