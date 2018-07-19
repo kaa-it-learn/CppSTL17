@@ -33,6 +33,15 @@ void functions_with_same_parameters();
 void custom_transform_if();
 void cartesian_product();
 void copy_containers();
+void sort_containers();
+void removing_items_from_containers();
+void transforming_items_in_containers();
+void finding_items();
+void reducing_range_in_vector();
+void pattern_search_string();
+void sampling_vectors();
+void input_permutations();
+void dictionary_merge();
 
 class process_monitor {
 public:

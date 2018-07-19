@@ -33,6 +33,15 @@ int main(int argc, char** argv) {
     custom_transform_if();
     cartesian_product();
     copy_containers();
+    sort_containers();
+    removing_items_from_containers();
+    transforming_items_in_containers();
+    finding_items();
+    reducing_range_in_vector();
+    pattern_search_string();
+    sampling_vectors();
+    input_permutations();
+    dictionary_merge();
 
     std::getchar();
     std::getchar();

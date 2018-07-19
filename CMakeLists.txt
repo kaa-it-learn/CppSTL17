@@ -33,4 +33,13 @@ add_executable(CppSTL17 main.cpp
                         25-functions-with-same-parameters.cpp
                         26-custom-transform-if.cpp
                         27-cartesian-product.cpp
-                        28-copy-containers.cpp)
+                        28-copy-containers.cpp
+                        29-sort-containers.cpp
+                        30-removing-items-from-containers.cpp
+                        31-transforming-items-in-containers.cpp
+                        32-finding-items.cpp
+                        33-reducing-range-in-vector.cpp
+                        34-pattern-search-string.cpp
+                        35-sampling-vectors.cpp
+                        36-input-permutations.cpp
+                        37-dictionary-merge.cpp)
