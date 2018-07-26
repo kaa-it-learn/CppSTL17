@@ -51,6 +51,9 @@ int main(int argc, char** argv) {
     custom_gather();
     remove_consecutive_whitespace();
     string_compress();
+    creating_strings();
+    trim_whitespace();
+    using_string_view(argv);
 
     std::getchar();
     std::getchar();

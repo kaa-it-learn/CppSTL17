@@ -51,6 +51,9 @@ void custom_split();
 void custom_gather();
 void remove_consecutive_whitespace();
 void string_compress();
+void creating_strings();
+void trim_whitespace();
+void using_string_view(char* argv[]);
 
 class process_monitor {
 public:

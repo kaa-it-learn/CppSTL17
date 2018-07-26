@@ -51,4 +51,7 @@ add_executable(CppSTL17 main.cpp
                         43-custom-split.cpp
                         44-gather.cpp
                         45-remove-consecutive-whitespace.cpp
-                        46-string-compress.cpp)
+                        46-string-compress.cpp
+                        47-creating-strings.cpp
+                        48-trim-whitespace.cpp
+                        49-using-string-view.cpp)
